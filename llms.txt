@@ -1,0 +1,28 @@
+# Noise Assisted Fermionic Reset
+
+Question: Can inverse-size, unobserved local phase noise make a uniform chain reset every quantum input quickly through one boundary loss port?
+
+Main result: For unit uniform hopping and unit endpoint loss, independent onsite number dephasing gamma=b/N with fixed b>0 yields complete vacuum-replacement half-diamond reset time Theta_b[N log(N/epsilon)] for N>=1 and 0<epsilon<=1/2. Constants are uniform on fixed positive compact b intervals. Arbitrary inputs and references are allowed. The identical coherent chain has a native lower bound Omega[N^3 log(1/epsilon)]; no sharp native upper is claimed.
+
+Authoritative routes:
+- README.md — question, results, scope and reproduction.
+- science/README.md — connected scientific route.
+- science/model.md — CAR/spin convention, GKSL normalization, ordinary diamond norm, independent baths, resources, occupation closure and two unravelings.
+- science/absorption.md — endpoint Chebyshev resolvent, fixed-band absorption probability, conditional renewal and all-input survival bound.
+- science/reset_theorem.md — arbitrary-reference upper, exact Poisson Gaussian phase-flip lower, error-uniform theorem and compact rate window.
+- science/native_comparator.md — analytic band-edge root and a cubic coherent reset lower bound.
+- science/interpretation.md — mechanism, resource meaning and operational limits.
+- references/RELATED_WORK.md — inherited model/transport/resolvent tools, known reset lower, and the new autonomous complete-reset consequence.
+- references/REFERENCES.md — primary versions and pinned public sources.
+- verification/README.md — commands, tested domains and finite-check limits.
+- verification/check_model.py — deterministic numerical diagnostics.
+- verification/results.json — actual saved finite outputs.
+
+Essential distinctions:
+1. The averaged many-body dephasing channel need not be Gaussian. Its occupation matrix still closes for arbitrary inputs.
+2. The upper uses projective one-particle jumps; the lower uses a different exact phase-flip unraveling. No bath record is accessible to the device.
+3. The determinant/logarithmic Gaussian reset obstruction and familiar noise-assisted transport mechanisms are inherited; the new estimate supplies a local autonomous attainment.
+4. The uniform generator has bounded per-bond hopping and bounded summed dephasing coefficient. Its total Hamiltonian strength grows with chain length.
+5. No unrestricted quantum-classical advantage, interacting-control optimum, disorder tolerance, or thermodynamic work/heat saving follows.
+
+The repository serves as a scientific record and a guide for self-directed learning. Contact: Ruge Lin, gogoko699@gmail.com.

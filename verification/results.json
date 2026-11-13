@@ -1,0 +1,561 @@
+{
+  "passed": true,
+  "scope": "Deterministic floating-point finite diagnostics. No interval certificate, arbitrary-size proof, priority certificate, or physical implementation validation. The t=4N finite survival values are not the conservative analytical block constant.",
+  "conventions": {
+    "J": 1,
+    "kappa": 1,
+    "gamma": "b/N",
+    "gksl": "D[L](rho)=L rho L^dagger-{L^dagger L,rho}/2",
+    "jumps": "L0=c1; Lj=sqrt(gamma) n_j",
+    "onebody": "G_jk=Tr(rho c_k^dagger c_j)",
+    "error": "half trace/diamond distance; the script checks selected trace distances",
+    "phase_kick_identity": "gamma D[n_j]=(gamma/4)(P_j rho P_j-rho), P_j=I-2n_j"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "elapsed_seconds": 7.704730360000212
+  },
+  "full_fock_reference_checks": [
+    {
+      "n": 2,
+      "time": 0.74,
+      "input_reference_ebits": 1,
+      "initial_wick_defect": 0.25,
+      "jw_car_error": 0.0,
+      "onebody_closure_max_error": 1.1102230246251565e-16,
+      "reference_marginal_max_error": 1.1102230246251565e-16,
+      "nonvacuum_probability": 0.492446599964215,
+      "mean_particle_number": 0.731003557724732,
+      "half_trace_distance_to_vacuum_replacement": 0.6398829081129874,
+      "gentle_projection_bound_using_actual_nonvacuum": 0.9479686953814752,
+      "trace_error": 1.1102230246251565e-16
+    },
+    {
+      "n": 2,
+      "time": 4.0,
+      "input_reference_ebits": 1,
+      "initial_wick_defect": 0.25,
+      "jw_car_error": 0.0,
+      "onebody_closure_max_error": 2.7755575615628914e-17,
+      "reference_marginal_max_error": 1.6653345369377348e-16,
+      "nonvacuum_probability": 0.15312674985522734,
+      "mean_particle_number": 0.16228456929959417,
+      "half_trace_distance_to_vacuum_replacement": 0.1587865935346807,
+      "gentle_projection_bound_using_actual_nonvacuum": 0.467877506866683,
+      "trace_error": 2.220446049250313e-16
+    },
+    {
+      "n": 2,
+      "exact_parity_kick_generator_max_error": 5.551115123125783e-17
+    },
+    {
+      "n": 3,
+      "time": 1.1099999999999999,
+      "input_reference_ebits": 1,
+      "initial_wick_defect": 0.25,
+      "jw_car_error": 0.0,
+      "onebody_closure_max_error": 1.6653345369377348e-16,
+      "reference_marginal_max_error": 1.1102230246251565e-16,
+      "nonvacuum_probability": 0.4793242018328795,
+      "mean_particle_number": 0.6565723292274528,
+      "half_trace_distance_to_vacuum_replacement": 0.6225509503303199,
+      "gentle_projection_bound_using_actual_nonvacuum": 0.931994536840743,
+      "trace_error": 2.220446049250313e-16
+    },
+    {
+      "n": 3,
+      "time": 6.0,
+      "input_reference_ebits": 1,
+      "initial_wick_defect": 0.25,
+      "jw_car_error": 0.0,
+      "onebody_closure_max_error": 1.691355389077387e-16,
+      "reference_marginal_max_error": 2.220446049250313e-16,
+      "nonvacuum_probability": 0.18473628673250508,
+      "mean_particle_number": 0.19848665065041501,
+      "half_trace_distance_to_vacuum_replacement": 0.19256843076533034,
+      "gentle_projection_bound_using_actual_nonvacuum": 0.5221777369452059,
+      "trace_error": 0.0
+    },
+    {
+      "n": 3,
+      "exact_parity_kick_generator_max_error": 0.0
+    },
+    {
+      "n": 4,
+      "time": 1.48,
+      "input_reference_ebits": 1,
+      "initial_wick_defect": 0.25,
+      "jw_car_error": 0.0,
+      "onebody_closure_max_error": 1.1102230246251565e-16,
+      "reference_marginal_max_error": 1.1102230246251565e-16,
+      "nonvacuum_probability": 0.4999999210382964,
+      "mean_particle_number": 1.5463801136025321,
+      "half_trace_distance_to_vacuum_replacement": 0.5703438353091229,
+      "gentle_projection_bound_using_actual_nonvacuum": 0.9571066858713374,
+      "trace_error": 2.220446049250313e-16
+    },
+    {
+      "n": 4,
+      "time": 8.0,
+      "input_reference_ebits": 1,
+      "initial_wick_defect": 0.25,
+      "jw_car_error": 0.0,
+      "onebody_closure_max_error": 9.020562075079397e-17,
+      "reference_marginal_max_error": 2.220446049250313e-16,
+      "nonvacuum_probability": 0.34481789467623813,
+      "mean_particle_number": 0.4575759440629775,
+      "half_trace_distance_to_vacuum_replacement": 0.34492155832923765,
+      "gentle_projection_bound_using_actual_nonvacuum": 0.759620914753837,
+      "trace_error": 0.0
+    },
+    {
+      "n": 4,
+      "exact_parity_kick_generator_max_error": 0.0
+    }
+  ],
+  "resolvent_absorption_checks": [
+    {
+      "n": 2,
+      "b": 0.5,
+      "gamma": 0.25,
+      "minimum_site_absorption_before_dephasing": 0.6183574879227052,
+      "maximum_site_absorption_before_dephasing": 0.6763285024154585,
+      "analytic_uniform_lower_bound": 0.018817951911041554,
+      "absorption_plus_dephasing_conservation_error": 6.662933807089953e-16,
+      "chebyshev_vs_dense_resolvent_max_error": 4.440892098500626e-16,
+      "maximum_mean_segment_duration": 1.5265700483091789,
+      "mean_segment_upper_bound": 4.0
+    },
+    {
+      "n": 2,
+      "b": 1.0,
+      "gamma": 0.5,
+      "minimum_site_absorption_before_dephasing": 0.42105263157894735,
+      "maximum_site_absorption_before_dephasing": 0.526315789473684,
+      "analytic_uniform_lower_bound": 0.010564095493500526,
+      "absorption_plus_dephasing_conservation_error": 4.440908046756099e-16,
+      "chebyshev_vs_dense_resolvent_max_error": 6.473657049138938e-16,
+      "maximum_mean_segment_duration": 1.1578947368421053,
+      "mean_segment_upper_bound": 2.0
+    },
+    {
+      "n": 2,
+      "b": 2.0,
+      "gamma": 1.0,
+      "minimum_site_absorption_before_dephasing": 0.2222222222222221,
+      "maximum_site_absorption_before_dephasing": 0.3888888888888887,
+      "analytic_uniform_lower_bound": 0.003329294752531147,
+      "absorption_plus_dephasing_conservation_error": 4.449079575318433e-16,
+      "chebyshev_vs_dense_resolvent_max_error": 2.498001805406602e-16,
+      "maximum_mean_segment_duration": 0.7777777777777779,
+      "mean_segment_upper_bound": 1.0
+    },
+    {
+      "n": 4,
+      "b": 0.5,
+      "gamma": 0.125,
+      "minimum_site_absorption_before_dephasing": 0.5255939125012691,
+      "maximum_site_absorption_before_dephasing": 0.7007100177951631,
+      "analytic_uniform_lower_bound": 0.018817951911041554,
+      "absorption_plus_dephasing_conservation_error": 2.6645421765271323e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 7.850462293418876e-16,
+      "maximum_mean_segment_duration": 3.7952486999898603,
+      "mean_segment_upper_bound": 8.0
+    },
+    {
+      "n": 4,
+      "b": 1.0,
+      "gamma": 0.25,
+      "minimum_site_absorption_before_dephasing": 0.34026997519653623,
+      "maximum_site_absorption_before_dephasing": 0.5711413644939749,
+      "analytic_uniform_lower_bound": 0.010564095493500526,
+      "absorption_plus_dephasing_conservation_error": 3.552822097363439e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 3.3422138886441676e-16,
+      "maximum_mean_segment_duration": 2.6389200992138693,
+      "mean_segment_upper_bound": 4.0
+    },
+    {
+      "n": 4,
+      "b": 2.0,
+      "gamma": 0.5,
+      "minimum_site_absorption_before_dephasing": 0.17600349675821367,
+      "maximum_site_absorption_before_dephasing": 0.45647264515189034,
+      "analytic_uniform_lower_bound": 0.003329294752531147,
+      "absorption_plus_dephasing_conservation_error": 1.7252084433824764e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 4.518280359883027e-16,
+      "maximum_mean_segment_duration": 1.6479930064835728,
+      "mean_segment_upper_bound": 2.0
+    },
+    {
+      "n": 8,
+      "b": 0.5,
+      "gamma": 0.0625,
+      "minimum_site_absorption_before_dephasing": 0.4850006395337998,
+      "maximum_site_absorption_before_dephasing": 0.7232034362933254,
+      "analytic_uniform_lower_bound": 0.018817951911041554,
+      "absorption_plus_dephasing_conservation_error": 2.8409834936053444e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 1.1857187100668868e-15,
+      "maximum_mean_segment_duration": 8.23998976745922,
+      "mean_segment_upper_bound": 16.0
+    },
+    {
+      "n": 8,
+      "b": 1.0,
+      "gamma": 0.125,
+      "minimum_site_absorption_before_dephasing": 0.3231040617888195,
+      "maximum_site_absorption_before_dephasing": 0.6043604285193556,
+      "analytic_uniform_lower_bound": 0.010564095493500526,
+      "absorption_plus_dephasing_conservation_error": 5.7732264477989684e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 1.3877787807814457e-15,
+      "maximum_mean_segment_duration": 5.415167505689476,
+      "mean_segment_upper_bound": 8.0,
+      "plancherel_integral_comparison": [
+        {
+          "site_1_based": 1,
+          "resolvent_integral": 0.6043604285193555,
+          "lyapunov_value": 0.6043604285193556,
+          "absolute_difference": 1.1102230246251565e-16,
+          "quadrature_reported_error": 2.1735744127010474e-11
+        },
+        {
+          "site_1_based": 5,
+          "resolvent_integral": 0.3293768465563047,
+          "lyapunov_value": 0.3293768465563047,
+          "absolute_difference": 0.0,
+          "quadrature_reported_error": 1.5843673021602363e-10
+        },
+        {
+          "site_1_based": 8,
+          "resolvent_integral": 0.4442922524557397,
+          "lyapunov_value": 0.44429225245573983,
+          "absolute_difference": 1.1102230246251565e-16,
+          "quadrature_reported_error": 1.0489565946352749e-10
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "b": 2.0,
+      "gamma": 0.25,
+      "minimum_site_absorption_before_dephasing": 0.16246681609227398,
+      "maximum_site_absorption_before_dephasing": 0.5019777887484604,
+      "analytic_uniform_lower_bound": 0.003329294752531147,
+      "absorption_plus_dephasing_conservation_error": 2.7026078727940893e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 8.441528768080325e-16,
+      "maximum_mean_segment_duration": 3.350132735630901,
+      "mean_segment_upper_bound": 4.0
+    },
+    {
+      "n": 16,
+      "b": 0.5,
+      "gamma": 0.03125,
+      "minimum_site_absorption_before_dephasing": 0.48221558810263093,
+      "maximum_site_absorption_before_dephasing": 0.7362100072403884,
+      "analytic_uniform_lower_bound": 0.018817951911041554,
+      "absorption_plus_dephasing_conservation_error": 9.769972473079793e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 1.484927348522849e-15,
+      "maximum_mean_segment_duration": 16.569101180715936,
+      "mean_segment_upper_bound": 32.0
+    },
+    {
+      "n": 16,
+      "b": 1.0,
+      "gamma": 0.0625,
+      "minimum_site_absorption_before_dephasing": 0.32173707738439544,
+      "maximum_site_absorption_before_dephasing": 0.6228956011363346,
+      "analytic_uniform_lower_bound": 0.010564095493500526,
+      "absorption_plus_dephasing_conservation_error": 5.913432903404224e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 1.7798229048217483e-15,
+      "maximum_mean_segment_duration": 10.852206761849654,
+      "mean_segment_upper_bound": 16.0
+    },
+    {
+      "n": 16,
+      "b": 2.0,
+      "gamma": 0.125,
+      "minimum_site_absorption_before_dephasing": 0.16096541367985095,
+      "maximum_site_absorption_before_dephasing": 0.5283683401354509,
+      "analytic_uniform_lower_bound": 0.003329294752531147,
+      "absorption_plus_dephasing_conservation_error": 3.5018435549537896e-15,
+      "chebyshev_vs_dense_resolvent_max_error": 2.237726045655905e-15,
+      "maximum_mean_segment_duration": 6.7122766905612,
+      "mean_segment_upper_bound": 8.0
+    },
+    {
+      "n": 32,
+      "b": 0.5,
+      "gamma": 0.015625,
+      "minimum_site_absorption_before_dephasing": 0.4831560490964173,
+      "maximum_site_absorption_before_dephasing": 0.7429604884908736,
+      "analytic_uniform_lower_bound": 0.018817951911041554,
+      "absorption_plus_dephasing_conservation_error": 1.8673789880786668e-14,
+      "chebyshev_vs_dense_resolvent_max_error": 2.112022405296757e-14,
+      "maximum_mean_segment_duration": 33.07801285783015,
+      "mean_segment_upper_bound": 64.0
+    },
+    {
+      "n": 32,
+      "b": 1.0,
+      "gamma": 0.03125,
+      "minimum_site_absorption_before_dephasing": 0.3227044980804733,
+      "maximum_site_absorption_before_dephasing": 0.6327066425303576,
+      "analytic_uniform_lower_bound": 0.010564095493500526,
+      "absorption_plus_dephasing_conservation_error": 1.4654943925052066e-14,
+      "chebyshev_vs_dense_resolvent_max_error": 4.311326371230795e-15,
+      "maximum_mean_segment_duration": 21.673456061425252,
+      "mean_segment_upper_bound": 32.0
+    },
+    {
+      "n": 32,
+      "b": 2.0,
+      "gamma": 0.0625,
+      "minimum_site_absorption_before_dephasing": 0.16150961190344637,
+      "maximum_site_absorption_before_dephasing": 0.5428551371465021,
+      "analytic_uniform_lower_bound": 0.003329294752531147,
+      "absorption_plus_dephasing_conservation_error": 1.2656554368902917e-14,
+      "chebyshev_vs_dense_resolvent_max_error": 4.981487945126502e-15,
+      "maximum_mean_segment_duration": 13.415846209544965,
+      "mean_segment_upper_bound": 16.0
+    },
+    {
+      "n": 64,
+      "b": 0.5,
+      "gamma": 0.0078125,
+      "minimum_site_absorption_before_dephasing": 0.48434386442507926,
+      "maximum_site_absorption_before_dephasing": 0.7464047283160139,
+      "analytic_uniform_lower_bound": 0.018817951911041554,
+      "absorption_plus_dephasing_conservation_error": 6.505907072317364e-14,
+      "chebyshev_vs_dense_resolvent_max_error": 1.2359430356010041e-14,
+      "maximum_mean_segment_duration": 66.00398535358366,
+      "mean_segment_upper_bound": 128.0
+    },
+    {
+      "n": 64,
+      "b": 1.0,
+      "gamma": 0.015625,
+      "minimum_site_absorption_before_dephasing": 0.32413138817844867,
+      "maximum_site_absorption_before_dephasing": 0.6377799198027254,
+      "analytic_uniform_lower_bound": 0.010564095493500526,
+      "absorption_plus_dephasing_conservation_error": 3.263633494652511e-14,
+      "chebyshev_vs_dense_resolvent_max_error": 1.0079210953764854e-14,
+      "maximum_mean_segment_duration": 43.25559115657936,
+      "mean_segment_upper_bound": 64.0
+    },
+    {
+      "n": 64,
+      "b": 2.0,
+      "gamma": 0.03125,
+      "minimum_site_absorption_before_dephasing": 0.16279128828315542,
+      "maximum_site_absorption_before_dephasing": 0.5505141706705188,
+      "analytic_uniform_lower_bound": 0.003329294752531147,
+      "absorption_plus_dephasing_conservation_error": 1.9317882984592217e-14,
+      "chebyshev_vs_dense_resolvent_max_error": 3.1816171654835078e-15,
+      "maximum_mean_segment_duration": 26.790678774939185,
+      "mean_segment_upper_bound": 32.0
+    }
+  ],
+  "finite_rate_window_survival": [
+    {
+      "n": 8,
+      "b": 0.5,
+      "time": 32,
+      "all_input_survival_norm": 0.2419936412980282,
+      "minimum_survival_effect_eigenvalue": 0.015555626527418341,
+      "mean_survival_effect_eigenvalue": 0.09881731890180989
+    },
+    {
+      "n": 8,
+      "b": 1.0,
+      "time": 32,
+      "all_input_survival_norm": 0.15848336445226188,
+      "minimum_survival_effect_eigenvalue": 0.021061768289792823,
+      "mean_survival_effect_eigenvalue": 0.084039737165213
+    },
+    {
+      "n": 8,
+      "b": 2.0,
+      "time": 32,
+      "all_input_survival_norm": 0.12245871650428829,
+      "minimum_survival_effect_eigenvalue": 0.027446988209920274,
+      "mean_survival_effect_eigenvalue": 0.08361123731005464
+    },
+    {
+      "n": 16,
+      "b": 0.5,
+      "time": 64,
+      "all_input_survival_norm": 0.3384384242686074,
+      "minimum_survival_effect_eigenvalue": 0.01402254394073163,
+      "mean_survival_effect_eigenvalue": 0.1203890681421178
+    },
+    {
+      "n": 16,
+      "b": 1.0,
+      "time": 64,
+      "all_input_survival_norm": 0.20046451882796934,
+      "minimum_survival_effect_eigenvalue": 0.018886490002624386,
+      "mean_survival_effect_eigenvalue": 0.09858861074226792
+    },
+    {
+      "n": 16,
+      "b": 2.0,
+      "time": 64,
+      "all_input_survival_norm": 0.1419975458683851,
+      "minimum_survival_effect_eigenvalue": 0.02439302357792842,
+      "mean_survival_effect_eigenvalue": 0.09493770067676707
+    },
+    {
+      "n": 32,
+      "b": 0.5,
+      "time": 128,
+      "all_input_survival_norm": 0.3804800551845772,
+      "minimum_survival_effect_eigenvalue": 0.012540948046696854,
+      "mean_survival_effect_eigenvalue": 0.13124455382820485
+    },
+    {
+      "n": 32,
+      "b": 1.0,
+      "time": 128,
+      "all_input_survival_norm": 0.21718270883523919,
+      "minimum_survival_effect_eigenvalue": 0.016686332582076222,
+      "mean_survival_effect_eigenvalue": 0.10589020056046539
+    },
+    {
+      "n": 32,
+      "b": 2.0,
+      "time": 128,
+      "all_input_survival_norm": 0.15105695606635844,
+      "minimum_survival_effect_eigenvalue": 0.021287345303782734,
+      "mean_survival_effect_eigenvalue": 0.10071354931389995
+    },
+    {
+      "n": 64,
+      "b": 0.5,
+      "time": 256,
+      "all_input_survival_norm": 0.3900865496620496,
+      "minimum_survival_effect_eigenvalue": 0.011311193011670632,
+      "mean_survival_effect_eigenvalue": 0.1366226884413309
+    },
+    {
+      "n": 64,
+      "b": 1.0,
+      "time": 256,
+      "all_input_survival_norm": 0.22276994692105748,
+      "minimum_survival_effect_eigenvalue": 0.014885449851207445,
+      "mean_survival_effect_eigenvalue": 0.10953636503244542
+    },
+    {
+      "n": 64,
+      "b": 2.0,
+      "time": 256,
+      "all_input_survival_norm": 0.15565947692584664,
+      "minimum_survival_effect_eigenvalue": 0.01875486348532665,
+      "mean_survival_effect_eigenvalue": 0.10362852218134327
+    }
+  ],
+  "gaussian_phase_kick_branches": [
+    {
+      "n": 2,
+      "deterministic_phase_kick_branch": 0,
+      "time_and_damping_action": 3.4,
+      "full_fock_vacuum_probability": 0.5610866360572833,
+      "passive_gaussian_determinant_probability": 0.5610866360572832,
+      "inherited_gaussian_frontier": 0.8256597934373469,
+      "fully_occupied_fock_vacuum_probability": 0.13885990709472912,
+      "fully_occupied_determinant_probability": 0.13885990709472942,
+      "fully_occupied_frontier": 0.6680062218548567,
+      "fixed_action_survival_determinant_error": 1.3877787807814457e-17
+    },
+    {
+      "n": 2,
+      "deterministic_phase_kick_branch": 1,
+      "time_and_damping_action": 3.4,
+      "full_fock_vacuum_probability": 0.5610866360572833,
+      "passive_gaussian_determinant_probability": 0.5610866360572832,
+      "inherited_gaussian_frontier": 0.8256597934373469,
+      "fully_occupied_fock_vacuum_probability": 0.13885990709472912,
+      "fully_occupied_determinant_probability": 0.13885990709472942,
+      "fully_occupied_frontier": 0.6680062218548567,
+      "fixed_action_survival_determinant_error": 1.3877787807814457e-17
+    },
+    {
+      "n": 3,
+      "deterministic_phase_kick_branch": 0,
+      "time_and_damping_action": 5.1,
+      "full_fock_vacuum_probability": 0.4884414336188066,
+      "passive_gaussian_determinant_probability": 0.4884414336188064,
+      "inherited_gaussian_frontier": 0.7502425730704531,
+      "fully_occupied_fock_vacuum_probability": 0.08100345973593902,
+      "fully_occupied_determinant_probability": 0.08100345973593924,
+      "fully_occupied_frontier": 0.5459724911572585,
+      "fixed_action_survival_determinant_error": 1.1275702593849246e-17
+    },
+    {
+      "n": 3,
+      "deterministic_phase_kick_branch": 1,
+      "time_and_damping_action": 5.1,
+      "full_fock_vacuum_probability": 0.5575641170548895,
+      "passive_gaussian_determinant_probability": 0.5575641170548894,
+      "inherited_gaussian_frontier": 0.7502425730704531,
+      "fully_occupied_fock_vacuum_probability": 0.19885120645174922,
+      "fully_occupied_determinant_probability": 0.19885120645174933,
+      "fully_occupied_frontier": 0.5459724911572585,
+      "fixed_action_survival_determinant_error": 6.071532165918825e-18
+    },
+    {
+      "n": 4,
+      "deterministic_phase_kick_branch": 0,
+      "time_and_damping_action": 6.8,
+      "full_fock_vacuum_probability": 0.4379617843448517,
+      "passive_gaussian_determinant_probability": 0.43796178434485195,
+      "inherited_gaussian_frontier": 0.6817140944990022,
+      "fully_occupied_fock_vacuum_probability": 0.06221516778808492,
+      "fully_occupied_determinant_probability": 0.06221516778808501,
+      "fully_occupied_frontier": 0.44623231243680006,
+      "fixed_action_survival_determinant_error": 3.0357660829594124e-18
+    },
+    {
+      "n": 4,
+      "deterministic_phase_kick_branch": 1,
+      "time_and_damping_action": 6.8,
+      "full_fock_vacuum_probability": 0.45773186836075175,
+      "passive_gaussian_determinant_probability": 0.45773186836075175,
+      "inherited_gaussian_frontier": 0.6817140944990022,
+      "fully_occupied_fock_vacuum_probability": 0.11451677403129439,
+      "fully_occupied_determinant_probability": 0.11451677403129433,
+      "fully_occupied_frontier": 0.44623231243680006,
+      "fixed_action_survival_determinant_error": 8.673617379884035e-19
+    }
+  ],
+  "native_band_edge_mode": [
+    {
+      "n": 16,
+      "slowest_one_particle_population_decay_rate": 0.0033103478631744663,
+      "rate_times_n_cubed": 13.559184847562614,
+      "predicted_asymptotic_constant": 15.791367041742973,
+      "relative_difference_from_limit": 0.14135458876231544
+    },
+    {
+      "n": 32,
+      "slowest_one_particle_population_decay_rate": 0.0004468390412807194,
+      "rate_times_n_cubed": 14.642021704686613,
+      "predicted_asymptotic_constant": 15.791367041742973,
+      "relative_difference_from_limit": 0.07278314372771999
+    },
+    {
+      "n": 64,
+      "slowest_one_particle_population_decay_rate": 5.8014161338292014e-05,
+      "rate_times_n_cubed": 15.208064309865222,
+      "predicted_asymptotic_constant": 15.791367041742973,
+      "relative_difference_from_limit": 0.03693807700978935
+    },
+    {
+      "n": 128,
+      "slowest_one_particle_population_decay_rate": 7.38979023551245e-06,
+      "rate_times_n_cubed": 15.497513371985406,
+      "predicted_asymptotic_constant": 15.791367041742973,
+      "relative_difference_from_limit": 0.018608501023425816
+    }
+  ]
+}
