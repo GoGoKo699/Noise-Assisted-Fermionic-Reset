@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 1,
+      "source_sha256": "56df9c01a23dd928986d4634a9f2d2a62fd3797cb2810451d376ce6a0507bf68",
+      "expected_text": "N\n  log\n  ⁡\n  N"
+    },
+    {
+      "path": "README.md",
+      "index": 2,
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "expected_text": "N"
+    },
+    {
+      "path": "README.md",
+      "index": 3,
+      "source_sha256": "636f4a24b87ea5a07aee53340cc57cdb7da06f3fea843c25f0a1196e378fdb64",
+      "expected_text": "γ\n  =\n  b\n  \n    /\n  \n  N"
+    },
+    {
+      "path": "README.md",
+      "index": 4,
+      "source_sha256": "2748bdd256917db857000037ed8e7d5f503707039327e73b504cb1f64fbdc92e",
+      "expected_text": "b\n  >\n  0"
+    },
+    {
+      "path": "README.md",
+      "index": 5,
+      "source_sha256": "46361e5c6b2d570f2ffdfe14e0a646ce8801f0cc996e404b38aac6aa92f047b4",
+      "expected_text": "t\n              \n                N\n                ,\n                b\n              \n            \n            (\n            ϵ\n            )\n            =\n            \n              Θ\n              b\n            \n            \n              \n            \n            \n              (\n              N\n              log\n              ⁡\n              \n                N\n                ϵ\n              \n              )\n            \n            ,\n            \n              \n            \n            N\n            ≥\n            1\n            ,\n            \n              \n            \n            0\n            <\n            ϵ\n            ≤\n            \n              1\n              2\n            \n            ."
+    },
+    {
+      "path": "README.md",
+      "index": 6,
+      "source_sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "expected_text": "b"
+    },
+    {
+      "path": "README.md",
+      "index": 7,
+      "source_sha256": "4399a513323c241a75aaa41f1136affcc5c9133d71241f9d142bc9646fa82d19",
+      "expected_text": "Θ\n    b\n  \n  (\n  N\n  log\n  ⁡\n  (\n  N\n  \n    /\n  \n  ϵ\n  )\n  )"
+    },
+    {
+      "path": "README.md",
+      "index": 8,
+      "source_sha256": "97606484309bdf6cebbd21fac445c30ab3ed2f930a68687a0bf4f8f547c0b15a",
+      "expected_text": "Ω\n  (\n  \n    N\n    3\n  \n  log\n  ⁡\n  (\n  1\n  \n    /\n  \n  ϵ\n  )\n  )"
+    },
+    {
+      "path": "README.md",
+      "index": 9,
+      "source_sha256": "49347079492142dc55f775fb1412a522e716b0c0a890eaff7c976a785a13bdc9",
+      "expected_text": "0\n  <\n  \n    b\n    −\n  \n  ≤\n  b\n  ≤\n  \n    b\n    +\n  \n  <\n  ∞"
+    },
+    {
+      "path": "README.md",
+      "index": 10,
+      "source_sha256": "8f0de5698af7d90b38f521c102dd78b7c877dfb1a4bb98573662d0c8b9de8e6f",
+      "expected_text": "O\n    b\n  \n  (\n  N\n  )"
+    },
+    {
+      "path": "README.md",
+      "index": 11,
+      "source_sha256": "cbe78bac8689bf95bcd287d4cccb0080cfaf95f7d65549758ae6297709f1193d",
+      "expected_text": "b\n  =\n  1"
+    },
+    {
+      "path": "README.md",
+      "index": 12,
+      "source_sha256": "62a3a2a1a9c23eef7bb686d9b3faaccadf0cce2fe1fd49c156c1d50fc18fce9d",
+      "expected_text": "−\n  N\n  log\n  \n    \n  \n  \n    [\n    1\n    −\n    (\n    1\n    −\n    ϵ\n    \n      )\n      \n        1\n        \n          /\n        \n        N\n      \n    \n    ]\n  \n  ≤\n  \n    t\n    \n      N\n      ,\n      1\n    \n  \n  (\n  ϵ\n  )\n  ≤\n  192\n  N\n  \n    ⌈\n    \n      log\n      2\n    \n    ⁡\n    \n      \n        4\n        N\n      \n      \n        ϵ\n        2\n      \n    \n    ⌉\n  \n  ."
+    },
+    {
+      "path": "README.md",
+      "index": 13,
+      "source_sha256": "414b28dc2cc651c68fadd59a2127422c0461058337fad44c45a0da4544172c57",
+      "expected_text": "b\n  \n    /\n  \n  N"
+    },
+    {
+      "path": "README.md",
+      "index": 14,
+      "source_sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "expected_text": "b"
+    }
+  ]
+}

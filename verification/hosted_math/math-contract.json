@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 1,
+      "source_sha256": "56df9c01a23dd928986d4634a9f2d2a62fd3797cb2810451d376ce6a0507bf68",
+      "expected_text": "N\n  log\n  ⁡\n  N"
+    },
+    {
+      "path": "README.md",
+      "index": 2,
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "expected_text": "N"
+    },
+    {
+      "path": "README.md",
+      "index": 3,
+      "source_sha256": "636f4a24b87ea5a07aee53340cc57cdb7da06f3fea843c25f0a1196e378fdb64",
+      "expected_text": "γ\n  =\n  b\n  \n    /\n  \n  N"
+    },
+    {
+      "path": "README.md",
+      "index": 4,
+      "source_sha256": "2748bdd256917db857000037ed8e7d5f503707039327e73b504cb1f64fbdc92e",
+      "expected_text": "b\n  >\n  0"
+    },
+    {
+      "path": "README.md",
+      "index": 5,
+      "source_sha256": "46361e5c6b2d570f2ffdfe14e0a646ce8801f0cc996e404b38aac6aa92f047b4",
+      "expected_text": "t\n              \n                N\n                ,\n                b\n              \n            \n            (\n            ϵ\n            )\n            =\n            \n              Θ\n              b\n            \n            \n              \n            \n            \n              (\n              N\n              log\n              ⁡\n              \n                N\n                ϵ\n              \n              )\n            \n            ,\n            \n              \n            \n            N\n            ≥\n            1\n            ,\n            \n              \n            \n            0\n            <\n            ϵ\n            ≤\n            \n              1\n              2\n            \n            ."
+    },
+    {
+      "path": "README.md",
+      "index": 6,
+      "source_sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "expected_text": "b"
+    },
+    {
+      "path": "README.md",
+      "index": 7,
+      "source_sha256": "4399a513323c241a75aaa41f1136affcc5c9133d71241f9d142bc9646fa82d19",
+      "expected_text": "Θ\n    b\n  \n  (\n  N\n  log\n  ⁡\n  (\n  N\n  \n    /\n  \n  ϵ\n  )\n  )"
+    },
+    {
+      "path": "README.md",
+      "index": 8,
+      "source_sha256": "97606484309bdf6cebbd21fac445c30ab3ed2f930a68687a0bf4f8f547c0b15a",
+      "expected_text": "Ω\n  (\n  \n    N\n    3\n  \n  log\n  ⁡\n  (\n  1\n  \n    /\n  \n  ϵ\n  )\n  )"
+    },
+    {
+      "path": "README.md",
+      "index": 9,
+      "source_sha256": "49347079492142dc55f775fb1412a522e716b0c0a890eaff7c976a785a13bdc9",
+      "expected_text": "0\n  <\n  \n    b\n    −\n  \n  ≤\n  b\n  ≤\n  \n    b\n    +\n  \n  <\n  ∞"
+    },
+    {
+      "path": "README.md",
+      "index": 10,
+      "source_sha256": "8f0de5698af7d90b38f521c102dd78b7c877dfb1a4bb98573662d0c8b9de8e6f",
+      "expected_text": "O\n    b\n  \n  (\n  N\n  )"
+    },
+    {
+      "path": "README.md",
+      "index": 11,
+      "source_sha256": "cbe78bac8689bf95bcd287d4cccb0080cfaf95f7d65549758ae6297709f1193d",
+      "expected_text": "b\n  =\n  1"
+    },
+    {
+      "path": "README.md",
+      "index": 12,
+      "source_sha256": "62a3a2a1a9c23eef7bb686d9b3faaccadf0cce2fe1fd49c156c1d50fc18fce9d",
+      "expected_text": "−\n  N\n  log\n  \n    \n  \n  \n    [\n    1\n    −\n    (\n    1\n    −\n    ϵ\n    \n      )\n      \n        1\n        \n          /\n        \n        N\n      \n    \n    ]\n  \n  ≤\n  \n    t\n    \n      N\n      ,\n      1\n    \n  \n  (\n  ϵ\n  )\n  ≤\n  192\n  N\n  \n    ⌈\n    \n      log\n      2\n    \n    ⁡\n    \n      \n        4\n        N\n      \n      \n        ϵ\n        2\n      \n    \n    ⌉\n  \n  ."
+    },
+    {
+      "path": "README.md",
+      "index": 13,
+      "source_sha256": "414b28dc2cc651c68fadd59a2127422c0461058337fad44c45a0da4544172c57",
+      "expected_text": "b\n  \n    /\n  \n  N"
+    },
+    {
+      "path": "README.md",
+      "index": 14,
+      "source_sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "expected_text": "b"
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 22,
+      "source_sha256": "e88184fc18af05e0837c4d9d3827d8e5fe929a763be012788f3a4b0e8550836b",
+      "expected_text": "ρ\n        ˙\n      \n    \n    \n      11\n    \n  \n  =\n  −\n  \n    ρ\n    \n      11\n    \n  \n  ,\n  \n    \n  \n  \n    \n      \n        ρ\n        ˙\n      \n    \n    \n      01\n    \n  \n  =\n  −\n  \n    \n      1\n      +\n      γ\n    \n    2\n  \n  \n    ρ\n    \n      01\n    \n  \n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 25,
+      "source_sha256": "6c1daad2958e8fc6e35c010d3ecf0641fd19b3cac8daf0ddb8d59ff176489314",
+      "expected_text": "Φ\n    t\n  \n  (\n  ρ\n  )\n  =\n  \n    (\n    \n      \n        \n          \n            ρ\n            \n              00\n            \n          \n          +\n          (\n          1\n          −\n          q\n          )\n          \n            ρ\n            \n              11\n            \n          \n        \n        \n          η\n          \n            ρ\n            \n              01\n            \n          \n        \n      \n      \n        \n          η\n          \n            ρ\n            \n              10\n            \n          \n        \n        \n          q\n          \n            ρ\n            \n              11\n            \n          \n        \n      \n    \n    )\n  \n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 28,
+      "source_sha256": "88c47d51f683ffee563628854f7cfe132c43e69e9946f8f1eb7f12e31e738c58",
+      "expected_text": "ω\n          \n            S\n            R\n          \n        \n        =\n        \n          1\n          2\n        \n        \n          [\n        \n      \n      \n        \n        |\n        00\n        ⟩\n        ⟨\n        00\n        |\n        +\n        (\n        1\n        −\n        q\n        )\n        |\n        01\n        ⟩\n        ⟨\n        01\n        |\n      \n    \n    \n      \n      \n        \n        +\n        q\n        |\n        11\n        ⟩\n        ⟨\n        11\n        |\n      \n    \n    \n      \n      \n        \n        +\n        η\n        (\n        |\n        00\n        ⟩\n        ⟨\n        11\n        |\n        +\n        |\n        11\n        ⟩\n        ⟨\n        00\n        |\n        )\n        \n          ]\n        \n        ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 31,
+      "source_sha256": "1ae7eb7cd85d15afda06fbf76adba57829150dc897e4f699135e8a736656880c",
+      "expected_text": "1\n          2\n        \n        ∥\n        \n          ω\n          \n            S\n            R\n          \n        \n        −\n        |\n        0\n        ⟩\n        ⟨\n        0\n        |\n        ⊗\n        \n          I\n          R\n        \n        \n          /\n        \n        2\n        \n          ∥\n          1\n        \n      \n    \n    \n      \n      \n        \n          \n        \n        =\n        \n          \n            q\n            +\n            \n              \n                q\n                2\n              \n              +\n              4\n              \n                η\n                2\n              \n            \n          \n          4\n        \n        ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 34,
+      "source_sha256": "287927c38d9657f1fc4517c5c02d3afd6aac22dc7fcb3daf0affb4fa694adc85",
+      "expected_text": "C\n    \n      k\n      ℓ\n    \n  \n  =\n  Tr\n  (\n  ρ\n  \n    c\n    ℓ\n    †\n  \n  \n    c\n    k\n  \n  )\n  ,"
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 37,
+      "source_sha256": "d0efd5fbdb59cde253c5635b274ee5911eaf456924fbe192d41d1658ee671473",
+      "expected_text": "=\n        −\n        \n          δ\n          \n            j\n            k\n          \n        \n        \n          c\n          k\n        \n        ,\n      \n    \n    \n      \n        [\n        \n          n\n          j\n        \n        ,\n        \n          c\n          ℓ\n          †\n        \n        ]\n      \n      \n        \n        =\n        \n          δ\n          \n            j\n            ℓ\n          \n        \n        \n          c\n          ℓ\n          †\n        \n        ,\n      \n    \n    \n      \n        \n          D\n        \n        [\n        \n          n\n          j\n        \n        \n          ]\n          ∗\n        \n        (\n        O\n        )\n      \n      \n        \n        =\n        −\n        \n          1\n          2\n        \n        [\n        \n          n\n          j\n        \n        ,\n        [\n        \n          n\n          j\n        \n        ,\n        O\n        ]\n        ]\n        ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 40,
+      "source_sha256": "eb509a8808aa2bd84132413b7cb989af567141a6100257ff3c97a2e6197b9279",
+      "expected_text": "C\n      ˙\n    \n  \n  =\n  −\n  i\n  [\n  \n    h\n    N\n  \n  ,\n  C\n  ]\n  −\n  \n    1\n    2\n  \n  {\n  P\n  ,\n  C\n  }\n  −\n  γ\n  (\n  C\n  −\n  diag\n  C\n  )\n  ,\n  \n    \n  \n  P\n  =\n  |\n  1\n  ⟩\n  ⟨\n  1\n  |\n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 46,
+      "source_sha256": "91407e2b4a52a3f44ba68595ecf45c399df4eb70e4b7c652bf829f5cb94900a4",
+      "expected_text": "γ\n  \n    D\n  \n  [\n  \n    n\n    j\n  \n  ]\n  (\n  ρ\n  )\n  =\n  \n    γ\n    4\n  \n  (\n  \n    Z\n    j\n  \n  ρ\n  \n    Z\n    j\n  \n  −\n  ρ\n  )\n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 47,
+      "source_sha256": "a367be5d2952f29843d620a9cb07190d2193b8f76657cee69dcacf8993fa229b",
+      "expected_text": "K\n    t\n  \n  =\n  \n    e\n    \n      (\n      −\n      i\n      \n        h\n        N\n      \n      −\n      P\n      \n        /\n      \n      2\n      )\n      t\n    \n  \n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 51,
+      "source_sha256": "1cdffb3d2b44e5efbeeac9d995dfc104916665a0ac14ff73aa40b49d8b923c32",
+      "expected_text": "p\n    j\n  \n  =\n  \n    ∫\n    0\n    ∞\n  \n  \n    e\n    \n      −\n      γ\n      t\n    \n  \n  |\n  (\n  \n    K\n    t\n  \n  \n    )\n    \n      1\n      j\n    \n  \n  \n    |\n    2\n  \n  d\n  t\n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 52,
+      "source_sha256": "46046db3b7b44bf455bccfaac4311bfc5adf7fd6be89ad20130ecf3ad9e46ce6",
+      "expected_text": "p\n    j\n  \n  =\n  \n    1\n    \n      2\n      π\n    \n  \n  \n    ∫\n    \n      \n        R\n      \n    \n  \n  \n    \n      |\n      \n        \n          [\n          (\n          E\n          +\n          i\n          γ\n          \n            /\n          \n          2\n          )\n          I\n          −\n          \n            h\n            N\n          \n          +\n          i\n          P\n          \n            /\n          \n          2\n          ]\n        \n        \n          1\n          j\n        \n        \n          −\n          1\n        \n      \n      |\n    \n    2\n  \n  d\n  E\n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 58,
+      "source_sha256": "d77aaab02def05255aba124eb7445ff38cade9004352c8c5ffe5bfdc6b006600",
+      "expected_text": "sup\n    ρ\n  \n  \n    \n      E\n    \n    ρ\n  \n  \n    τ\n    \n      a\n      b\n      s\n    \n  \n  ≤\n  \n    N\n    b\n  \n  (\n  1\n  +\n  \n    a\n    b\n    \n      −\n      1\n    \n  \n  )\n  =\n  \n    C\n    b\n  \n  N\n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 64,
+      "source_sha256": "c01dfb62d397458e39f1d1c2538dd31b2ec70fdb511a8787078586ae62406527",
+      "expected_text": "E\n  \n  \n    \n      N\n      ^\n    \n  \n  (\n  t\n  )\n  ≤\n  N\n  \n    2\n    \n      −\n      k\n    \n  \n  ,\n  \n    \n  \n  t\n  =\n  2\n  \n    C\n    b\n  \n  N\n  k\n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 70,
+      "source_sha256": "f4e35e8c45c2d7490c270f70f2ef2e71137f99ad0dd49ab5fea68019c9611d4b",
+      "expected_text": "∥\n  ω\n  −\n  \n    P\n    0\n  \n  ω\n  \n    P\n    0\n  \n  \n    ∥\n    1\n  \n  ≤\n  2\n  \n    δ\n  \n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 76,
+      "source_sha256": "ad97e72957d7b00936af873d0ca019068a4a73c5b2f3ef950153e7fab9254a39",
+      "expected_text": "1\n    2\n  \n  ∥\n  \n    ω\n    \n      S\n      R\n    \n  \n  −\n  |\n  \n    Ω\n    N\n  \n  ⟩\n  ⟨\n  \n    Ω\n    N\n  \n  |\n  ⊗\n  \n    ρ\n    R\n  \n  \n    ∥\n    1\n  \n  ≤\n  \n    δ\n  \n  +\n  \n    δ\n    2\n  \n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 82,
+      "source_sha256": "eaf188e56b81598d63bacbbd1189d213c3b276fffbbbcc7ee658bc555ba089a8",
+      "expected_text": "det\n  (\n  \n    K\n    ω\n    †\n  \n  \n    K\n    ω\n  \n  )\n  =\n  \n    e\n    \n      −\n      t\n    \n  \n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 87,
+      "source_sha256": "54a25ca38387ed847e3230d0c4af37b3365afac5617b159a25a95242994dc11e",
+      "expected_text": "P\n    \n      v\n      a\n      c\n    \n  \n  (\n  t\n  ∣\n  ω\n  )\n  ≤\n  (\n  1\n  −\n  \n    e\n    \n      −\n      t\n      \n        /\n      \n      N\n    \n  \n  \n    )\n    N\n  \n  ."
+    },
+    {
+      "path": "learning/RIVAS_HUELGA_BRIDGE.md",
+      "index": 97,
+      "source_sha256": "578bc55894e3d717b62c626238f381eff7e93da04583a7f204bbcf53be216dfe",
+      "expected_text": "t\n    \n      N\n      ,\n      b\n    \n  \n  (\n  ϵ\n  )\n  =\n  \n    Θ\n    b\n  \n  \n    \n  \n  \n    (\n    N\n    log\n    ⁡\n    \n      N\n      ϵ\n    \n    )\n  \n  ,\n  \n    \n  \n  N\n  ≥\n  1\n  ,\n  \n    \n  \n  0\n  <\n  ϵ\n  ≤\n  \n    1\n    2\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 6,
+      "source_sha256": "eae959a3aba32bc6458d926d42a12720db972e44487ca1b898e927446e544cc6",
+      "expected_text": "t\n    \n      N\n      ,\n      b\n    \n  \n  (\n  ϵ\n  )\n  =\n  \n    Θ\n    b\n  \n  \n    \n  \n  \n    (\n    N\n    log\n    ⁡\n    \n      N\n      ϵ\n    \n    )\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 10,
+      "source_sha256": "74fe2dd297d9d66ca985daa6803dd42bff8722b155cbae47b90ca8796befd860",
+      "expected_text": "−\n        N\n        log\n        ⁡\n        \n          [\n          1\n          −\n          (\n          1\n          −\n          ϵ\n          \n            )\n            \n              1\n              \n                /\n              \n              N\n            \n          \n          ]\n        \n      \n      \n        \n        ≤\n        \n          t\n          \n            N\n            ,\n            b\n          \n        \n        (\n        ϵ\n        )\n      \n    \n    \n      \n      \n        \n        ≤\n        2\n        \n          C\n          b\n        \n        N\n        \n          ⌈\n          \n            log\n            2\n          \n          ⁡\n          \n            \n              4\n              N\n            \n            \n              ϵ\n              2\n            \n          \n          ⌉\n        \n        ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 17,
+      "source_sha256": "301c3862e1a4d5984c1d68493790fbdae494c1e997d6e0fc0c2cf47d0bc14dfb",
+      "expected_text": "q\n    b\n  \n  (\n  t\n  )\n  =\n  \n    2\n    \n      −\n      ⌊\n      t\n      \n        /\n      \n      (\n      2\n      \n        C\n        b\n      \n      N\n      )\n      ⌋\n    \n  \n  ,\n  \n    \n  \n  \n    δ\n    t\n  \n  =\n  N\n  \n    q\n    b\n  \n  (\n  t\n  )\n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 18,
+      "source_sha256": "3904f5bbd839e5ddc6c1d2df2069ee79c4d0be412f9176a649bd2cd59cc3120c",
+      "expected_text": "Tr\n        C\n        (\n        t\n        )\n      \n      \n        \n        =\n        Tr\n        \n          [\n        \n        C\n        (\n        0\n        )\n        \n          T\n          t\n          ∗\n        \n        (\n        I\n        )\n        \n          ]\n        \n      \n    \n    \n      \n      \n        \n        ≤\n        \n          q\n          b\n        \n        (\n        t\n        )\n        Tr\n        C\n        (\n        0\n        )\n        ≤\n        \n          δ\n          t\n        \n        ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 19,
+      "source_sha256": "172dfad10d063c540ceabc2c297c7f2e1682b90af291de0b8c36bc52e8538d90",
+      "expected_text": "I\n  −\n  |\n  \n    Ω\n    N\n  \n  ⟩\n  ⟨\n  \n    Ω\n    N\n  \n  |\n  ⪯\n  \n    \n      N\n      ^\n    \n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 25,
+      "source_sha256": "f4e35e8c45c2d7490c270f70f2ef2e71137f99ad0dd49ab5fea68019c9611d4b",
+      "expected_text": "∥\n  ω\n  −\n  \n    P\n    0\n  \n  ω\n  \n    P\n    0\n  \n  \n    ∥\n    1\n  \n  ≤\n  2\n  \n    δ\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 30,
+      "source_sha256": "0eebd789bdff1730d50810b340221c6bbd0e5c5874bb5f8a84c88a1d3932a89c",
+      "expected_text": "1\n    2\n  \n  \n    \n      ‖\n      \n        ω\n        \n          S\n          R\n        \n      \n      −\n      |\n      \n        Ω\n        N\n      \n      ⟩\n      ⟨\n      \n        Ω\n        N\n      \n      |\n      ⊗\n      \n        ρ\n        R\n      \n      ‖\n    \n    1\n  \n  ≤\n  \n    δ\n  \n  +\n  \n    δ\n    2\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 32,
+      "source_sha256": "9fb8274072491e0e87d8e9d3e95dea5cdc929f44421faa32a3e56a219458216e",
+      "expected_text": "d\n    \n      N\n      ,\n      b\n    \n  \n  (\n  t\n  )\n  ≤\n  \n    \n      δ\n      t\n    \n  \n  +\n  \n    \n      δ\n      t\n    \n    2\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 35,
+      "source_sha256": "ff98eeefdca5d215f4fd418362c1bd0ca27c873b3da5d1b73887633257f2cb26",
+      "expected_text": "b\n    N\n  \n  \n    D\n  \n  [\n  \n    n\n    j\n  \n  ]\n  =\n  \n    b\n    \n      4\n      N\n    \n  \n  (\n  \n    Z\n    j\n  \n  ρ\n  \n    Z\n    j\n  \n  −\n  ρ\n  )\n  ,\n  \n    \n  \n  \n    Z\n    j\n  \n  =\n  \n    e\n    \n      i\n      π\n      \n        n\n        j\n      \n    \n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 38,
+      "source_sha256": "57a3ba020f3d5f11d55c5b8cf9dc89d9ff81c2b7de1b86ff431113f271b4a5d7",
+      "expected_text": "K\n      ˙\n    \n  \n  =\n  (\n  −\n  i\n  \n    h\n    N\n  \n  −\n  P\n  \n    /\n  \n  2\n  )\n  K\n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 40,
+      "source_sha256": "352b7f08881024c5ef2c924ebb7286b84c0f67473c8b16a6676c4bfd7a5c85d8",
+      "expected_text": "det\n  \n    (\n  \n  \n    K\n    ω\n  \n  (\n  t\n  \n    )\n    †\n  \n  \n    K\n    ω\n  \n  (\n  t\n  )\n  \n    )\n  \n  =\n  \n    e\n    \n      −\n      t\n    \n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 43,
+      "source_sha256": "26accc3436134c8d79fb0b67c8893508b60bf872722f95dc0cdf6d8604b3d92a",
+      "expected_text": "P\n    \n      v\n      a\n      c\n    \n  \n  (\n  t\n  ∣\n  ω\n  )\n  =\n  \n    ∏\n    \n      i\n      =\n      1\n    \n    N\n  \n  (\n  1\n  −\n  \n    s\n    i\n  \n  )\n  ,\n  \n    \n  \n  \n    ∏\n    \n      i\n      =\n      1\n    \n    N\n  \n  \n    s\n    i\n  \n  =\n  \n    e\n    \n      −\n      t\n    \n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 47,
+      "source_sha256": "9066829cd60b5adf214d63cb76fad068fdb1ad7b83e9c0c168947367ed4a8979",
+      "expected_text": "P\n    \n      v\n      a\n      c\n    \n  \n  (\n  t\n  ∣\n  ω\n  )\n  ≤\n  \n    \n      (\n      1\n      −\n      \n        e\n        \n          −\n          t\n          \n            /\n          \n          N\n        \n      \n      )\n    \n    N\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 49,
+      "source_sha256": "8474cf355350828647ae24727e48d576256083007d91debe10237fc111ad26ba",
+      "expected_text": "d\n    \n      N\n      ,\n      b\n    \n  \n  (\n  t\n  )\n  ≥\n  1\n  −\n  \n    \n      (\n      1\n      −\n      \n        e\n        \n          −\n          t\n          \n            /\n          \n          N\n        \n      \n      )\n    \n    N\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 51,
+      "source_sha256": "b76610450788fc28b016549e9901c126b626178e3de018f028560c946ae265e4",
+      "expected_text": "t\n  ≥\n  −\n  N\n  log\n  ⁡\n  \n    [\n    1\n    −\n    (\n    1\n    −\n    ϵ\n    \n      )\n      \n        1\n        \n          /\n        \n        N\n      \n    \n    ]\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 54,
+      "source_sha256": "b2bdb824c24e9eed328c50e950ef593f50a02115d9d1736d71729bfd7ac4fcd6",
+      "expected_text": "−\n  N\n  log\n  ⁡\n  \n    [\n    1\n    −\n    (\n    1\n    −\n    ϵ\n    \n      )\n      \n        1\n        \n          /\n        \n        N\n      \n    \n    ]\n  \n  ≥\n  N\n  log\n  ⁡\n  \n    N\n    α\n  \n  ."
+    },
+    {
+      "path": "science/reset_theorem.md",
+      "index": 62,
+      "source_sha256": "e22ac5fb6a6a40989072773c884a6b47a1f00f6ccced39749b655da61283f597",
+      "expected_text": "a\n    b\n  \n  ≥\n  \n    a\n    \n      \n        b\n        +\n      \n    \n  \n  ,\n  \n    \n  \n  \n    C\n    b\n  \n  ≤\n  \n    \n      1\n      +\n      \n        a\n        \n          \n            b\n            +\n          \n        \n        \n          −\n          1\n        \n      \n    \n    \n      b\n      −\n    \n  \n  ."
+    }
+  ]
+}

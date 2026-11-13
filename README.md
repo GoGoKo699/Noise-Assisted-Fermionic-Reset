@@ -7,7 +7,7 @@ For $`N`$ modes, unit nearest-neighbor hopping, unit vacuum loss at one endpoint
 ```math
 \boxed{\displaystyle
 t_{N,b}(\epsilon)=\Theta_b\!\left(N\log\frac{N}{\epsilon}\right),
-\qquad N\ge1,\quad 0<\epsilon\le\frac12.}
+\qquad N\ge1,\quad 0\lt \epsilon\le\frac12.}
 ```
 
 Error is half the diamond distance from global vacuum replacement. The guarantee covers arbitrary many-body inputs and arbitrary external references. The constants are uniform when $`b`$ varies over a fixed positive compact interval.
@@ -16,7 +16,7 @@ Error is half the diamond distance from global vacuum replacement. The guarantee
 |---|---|---|
 | Weak-noise complete reset: $`\Theta_b(N\log(N/\epsilon))`$ | Static local dynamics erase the whole register and its reference correlations. | [Reset theorem](science/reset_theorem.md) |
 | Identical coherent chain: $`\Omega(N^3\log(1/\epsilon))`$ | A band-edge mode makes the native noiseless device slow in the worst case. | [Native comparison](science/native_comparator.md) |
-| Any fixed rate window $`0<b_-\le b\le b_+<\infty`$ | Constant-factor rate error preserves the reset order. | [Uniform absorption](science/absorption.md) |
+| Any fixed rate window $`0\lt b_-\le b\le b_+\lt \infty`$ | Constant-factor rate error preserves the reset order. | [Uniform absorption](science/absorption.md) |
 
 The logarithmic lower bound is inherited from the Gaussian loss-action frontier in [Fermionic Reset Complexity](https://github.com/GoGoKo699/Fermionic-Reset-Complexity/tree/7cc91ccf5f1e7b503a95105b6d0b6885e1088349). The contribution here is attaining that order autonomously with a uniform nearest-neighbor chain, one continuously active sink, and bounded total phase-noise strength. [Relationship to earlier work](references/RELATED_WORK.md)
 
@@ -39,6 +39,10 @@ The constants are deliberately conservative. The theorem identifies the scaling,
 Start with the [scientific overview](science/README.md), then follow the [model](science/model.md), [uniform absorption proof](science/absorption.md), and [complete reset theorem](science/reset_theorem.md). The [physical interpretation](science/interpretation.md) explains the resources, the role of independent noise, and the distinction between excitation transfer and erasing arbitrary quantum information. The [reference list](references/REFERENCES.md) identifies the primary precedents and pinned scientific accounts.
 
 The [LLM reading guide](llms.txt) maps questions to authoritative files.
+
+## Learn the argument
+
+The [learning route](learning/README.md) uses Rivas and Huelga, *Open Quantum Systems: An Introduction* (2012), as its single educational anchor. The [source bridge](learning/RIVAS_HUELGA_BRIDGE.md) supplies a worked one-mode example and the project-specific steps from Lindblad dynamics to complete reset. [Thirty milestones](learning/MILESTONES.md) connect fourteen background targets to sixteen targets assembling the contribution.
 
 ## Reproduce the finite checks
 

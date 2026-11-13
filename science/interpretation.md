@@ -48,7 +48,7 @@ Independent onsite noise is material. A single globally correlated jump proporti
 | Dynamics | Static, time-independent Lindblad generator |
 | Performance cost | Elapsed physical time, with all losses and phase-noise evolution included |
 
-The inverse-size per-site rate can be miscalibrated by a fixed factor while remaining in a fixed interval $`b\in[b_-,b_+]`$ with $`0<b_-\le b_+<\infty`$. The reset order is uniform on such an interval. This is a homogeneous-rate tolerance statement; it does not assert tolerance of arbitrary spatial disorder or correlated noise.
+The inverse-size per-site rate can be miscalibrated by a fixed factor while remaining in a fixed interval $`b\in[b_-,b_+]`$ with $`0\lt b_-\le b_+\lt \infty`$. The reset order is uniform on such an interval. This is a homogeneous-rate tolerance statement; it does not assert tolerance of arbitrary spatial disorder or correlated noise.
 
 With hopping angular frequency $`J`$ and matched loss rate $`\kappa=J`$, rescaling time gives $`\gamma=bJ/N`$ and physical reset time $`\Theta_b(J^{-1}N\log(N/\epsilon))`$. The local hopping strength is bounded, while the total Hamiltonian strength grows with the number of bonds. No fixed total Hamiltonian budget is imposed.
 

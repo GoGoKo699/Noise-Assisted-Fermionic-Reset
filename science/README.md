@@ -9,7 +9,7 @@ For $`N`$ modes, unit nearest-neighbor hopping and unit boundary loss, set the o
 ```math
 t_{\rm reset}(N,\epsilon;b)
 =\Theta_b\!\left(N\log\frac{N}{\epsilon}\right),
-\qquad N\ge1,\quad 0<\epsilon\le\frac12.
+\qquad N\ge1,\quad 0\lt \epsilon\le\frac12.
 ```
 
 The constants can be chosen uniformly when $`b`$ lies in any fixed positive compact interval. The rate need not be tuned to one exact coefficient. The same uniform coherent chain with $`\gamma=0`$ has a worst-input lower bound of order $`N^3\log(1/\epsilon)`$.

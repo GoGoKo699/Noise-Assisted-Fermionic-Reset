@@ -53,6 +53,12 @@ The upper proof uses projective one-particle dephasing events because they local
 
 Its Poisson phase-flip trajectories are Gaussian. Projective-jump trajectories need not be Gaussian. The checks compare the two unconditional generators exactly in finite Fock space and test the Gaussian attenuation formulas on prescribed phase-flip records. They do not treat a sampled trajectory average as proof of the identity.
 
+## Hosted mathematics
+
+The [read-only capture workflow](../.github/workflows/hosted-math.yml) opens the exact proposed GitHub revision at desktop and narrower widths. It compares each accessible MathML structure with MathJax compiled from that same source, checks expression text and display geometry, and retains HTML, screenshots and reports as a CI artifact. The [capture helpers](hosted_math/capture_hosted_math.cjs) and [text checker](hosted_math/check_rendered_math.py) can also run locally with Playwright, Chromium and MathJax. The workflow uses pinned actions, grants only content read access, and does not execute on external-fork pull requests.
+
+This checks rendering and source correspondence. It does not establish the scientific claims, and screenshot review remains necessary to assess readability. Artifacts have a fourteen-day retention period; the mathematical source and reproduction scripts remain in the repository.
+
 ## Limits
 
 No interval arithmetic, optimal finite-N constant, cutoff profile, disorder tolerance, finite-temperature extension or hardware noise-generation cost is certified. The finite time 4N survival check is stronger than the conservative analytical block constant in these samples; it is not substituted for that proof constant. A finite rate window does not give uniform constants as its endpoints approach zero or infinity. The script does not establish priority or an unrestricted quantum-over-classical advantage.

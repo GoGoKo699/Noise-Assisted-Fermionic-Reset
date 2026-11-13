@@ -36,7 +36,7 @@ Consequently,
 \le2^{-\lfloor t/(2C_bN)\rfloor}.
 ```
 
-For $`b=1`$, the conservative constants satisfy $`a_1>0.01056409`$ and $`C_1<95.661`$. A block length of $`192N`$ can therefore replace $`2C_1N`$. The constants are proof bounds, not optimized transport constants.
+For $`b=1`$, the conservative constants satisfy $`a_1>0.01056409`$ and $`C_1\lt 95.661`$. A block length of $`192N`$ can therefore replace $`2C_1N`$. The constants are proof bounds, not optimized transport constants.
 
 ## Absorption before the next dephasing event
 

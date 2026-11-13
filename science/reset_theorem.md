@@ -4,7 +4,7 @@ For the [model](model.md) with any fixed $`b>0`$, let $`t_{N,b}(\epsilon)`$ be t
 
 ## Theorem
 
-For all $`N\ge1`$ and $`0<\epsilon\le1/2`$,
+For all $`N\ge1`$ and $`0\lt \epsilon\le1/2`$,
 
 ```math
 t_{N,b}(\epsilon)
@@ -103,7 +103,7 @@ At a phase flip it is left-multiplied by $`I-2|j\rangle\langle j|`$, a unitary m
 \det\bigl(K_\omega(t)^\dagger K_\omega(t)\bigr)=e^{-t}.
 ```
 
-The propagator is contractive, so its squared singular values satisfy $`0<s_i\le1`$. Starting from the fully occupied Slater state, a branch is a gauge-invariant fermionic Gaussian attenuation state with covariance $`K_\omega K_\omega^\dagger`$. Its vacuum probability is
+The propagator is contractive, so its squared singular values satisfy $`0\lt s_i\le1`$. Starting from the fully occupied Slater state, a branch is a gauge-invariant fermionic Gaussian attenuation state with covariance $`K_\omega K_\omega^\dagger`$. Its vacuum probability is
 
 ```math
 P_{\rm vac}(t\mid\omega)=\prod_{i=1}^N(1-s_i),
@@ -112,7 +112,7 @@ P_{\rm vac}(t\mid\omega)=\prod_{i=1}^N(1-s_i),
 
 This Gaussian normal-form fact concerns each branch only. It can also be obtained by diagonalizing the attenuation matrix into independent lossy modes; a fully occupied input is invariant, up to phase, under number-conserving mode rotations.
 
-For $`x<0`$, $`f(x)=\log(1-e^x)`$ is concave. Applying Jensen's inequality to $`x_i=\log s_i`$ gives
+For $`x\lt 0`$, $`f(x)=\log(1-e^x)`$ is concave. Applying Jensen's inequality to $`x_i=\log s_i`$ gives
 
 ```math
 P_{\rm vac}(t\mid\omega)
@@ -143,7 +143,7 @@ Let $`\alpha=-\log(1-\epsilon)`$. Since $`1-e^{-\alpha/N}\le\alpha/N`$,
 \ge N\log\frac N\alpha.
 ```
 
-For $`0<\epsilon\le1/2`$, one has $`\alpha\le2(\log2)\epsilon`$. Also $`N/\epsilon\ge2`$, so the subtraction of $`\log(2\log2)`$ can be absorbed in a universal positive multiple of $`\log(N/\epsilon)`$. This proves a uniform lower order $`\Omega[N\log(N/\epsilon)]`$. The explicit upper bound has the same order.
+For $`0\lt \epsilon\le1/2`$, one has $`\alpha\le2(\log2)\epsilon`$. Also $`N/\epsilon\ge2`$, so the subtraction of $`\log(2\log2)`$ can be absorbed in a universal positive multiple of $`\log(N/\epsilon)`$. This proves a uniform lower order $`\Omega[N\log(N/\epsilon)]`$. The explicit upper bound has the same order.
 
 For $`b\in[b_-,b_+]\subset(0,\infty)`$, use
 

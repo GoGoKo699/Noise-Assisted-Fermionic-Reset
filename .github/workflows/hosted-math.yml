@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 20
     env:
       CAPTURE_REVISION: ${{ github.event.pull_request.head.sha }}
-      HOSTED_PHASE: probe
+      HOSTED_PHASE: final
     steps:
       - name: Check out the exact proposed source
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
@@ -42,6 +42,7 @@ jobs:
           node verification/hosted_math/probe_hosted_math.cjs \
             --root "$GITHUB_WORKSPACE" --repository "$GITHUB_REPOSITORY" \
             --revision "$CAPTURE_REVISION" --page README.md \
+            --contract verification/hosted_math/probe-contract.json \
             --output "$RUNNER_TEMP/hosted-math/probe"
       - name: Compare every final hosted mathematical expression
         if: env.HOSTED_PHASE == 'final'
@@ -50,6 +51,7 @@ jobs:
           node verification/hosted_math/capture_hosted_math.cjs \
             --root "$GITHUB_WORKSPACE" --repository "$GITHUB_REPOSITORY" \
             --revision "$CAPTURE_REVISION" \
+            --contract verification/hosted_math/math-contract.json \
             --output "$RUNNER_TEMP/hosted-math/final"
       - name: Retain captures and source comparisons
         if: always()
