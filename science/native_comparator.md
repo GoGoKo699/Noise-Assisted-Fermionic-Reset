@@ -4,7 +4,7 @@ The native comparator has exactly the [same uniform Hamiltonian and boundary los
 
 ```math
 t_{N,0}(\epsilon)=\Omega\!\left(N^3\log\frac1\epsilon\right)
-\qquad(0<\epsilon\le1/2).
+\qquad(0\lt \epsilon\le1/2).
 ```
 
 In particular its fixed-error reset time is at least cubic, whereas the [weak noisy chain](reset_theorem.md) has order $`N\log N`$. A matching native cubic upper bound is not required by this statement and is not inferred from a spectral gap.
@@ -59,14 +59,14 @@ w(u)=\pi-\frac\pi{1+i/2}u+O(u^2)
 Expanding $`z_N=2\cos[uw(u)]`$ gives
 
 ```math
-\operatorname{Im}z_N
+\mathrm{Im}\,z_N
 =-\frac{4\pi^2}{5N^3}+O(N^{-4}),
 ```
 
 and hence the survival-probability decay rate is
 
 ```math
-r_N=-2\operatorname{Im}z_N
+r_N=-2\mathrm{Im}\,z_N
 =\frac{8\pi^2}{5N^3}+O(N^{-4}).
 ```
 

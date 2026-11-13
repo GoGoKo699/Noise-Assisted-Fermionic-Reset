@@ -14,6 +14,9 @@ Authoritative routes:
 - science/interpretation.md — mechanism, resource meaning and operational limits.
 - references/RELATED_WORK.md — inherited model/transport/resolvent tools, known reset lower, and the new autonomous complete-reset consequence.
 - references/REFERENCES.md — primary versions and pinned public sources.
+- learning/README.md — single-anchor reading route.
+- learning/RIVAS_HUELGA_BRIDGE.md — verified Rivas–Huelga (2012) locators, worked channel example and project-specific derivations.
+- learning/MILESTONES.md — exactly 30 dependency-ordered understanding targets: 14 background and 16 contribution.
 - verification/README.md — commands, tested domains and finite-check limits.
 - verification/check_model.py — deterministic numerical diagnostics.
 - verification/results.json — actual saved finite outputs.

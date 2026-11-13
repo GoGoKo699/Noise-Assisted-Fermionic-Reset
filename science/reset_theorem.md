@@ -4,7 +4,7 @@ For the [model](model.md) with any fixed $`b>0`$, let $`t_{N,b}(\epsilon)`$ be t
 
 ## Theorem
 
-For all $`N\ge1`$ and $`0<\epsilon\le1/2`$,
+For all $`N\ge1`$ and $`0\lt \epsilon\le1/2`$,
 
 ```math
 t_{N,b}(\epsilon)
@@ -39,9 +39,9 @@ The [absorption proposition](absorption.md) implies
 
 ```math
 \begin{aligned}
-\operatorname{Tr}C(t)
-&=\operatorname{Tr}\bigl[C(0)T_t^*(I)\bigr]\\
-&\le q_b(t)\operatorname{Tr}C(0)\le\delta_t.
+\mathrm{Tr}\,C(t)
+&=\mathrm{Tr}\bigl[C(0)T_t^*(I)\bigr]\\
+&\le q_b(t)\mathrm{Tr}\,C(0)\le\delta_t.
 \end{aligned}
 ```
 
@@ -56,14 +56,14 @@ Hence every input has probability at most $`\delta_t`$ to be outside the vacuum 
 To turn this into a channel bound, take an arbitrary output state $`\omega_{SR}`$ and set $`P_0=|\Omega_N\rangle\langle\Omega_N|\otimes I_R`$. If the nonvacuum probability is at most $`\delta\le1`$, gentle projection gives
 
 ```math
-\|\omega-P_0\omega P_0\|_1\le2\sqrt\delta.
+\Vert \omega-P_0\omega P_0\Vert _1\le2\sqrt\delta.
 ```
 
 Write $`P_0\omega P_0=|\Omega_N\rangle\langle\Omega_N|\otimes\omega_R^0`$. Partial trace over the system kills the off-diagonal vacuum/nonvacuum blocks. Therefore $`\omega_R-\omega_R^0`$ is positive with trace at most $`\delta`$. Trace preservation gives $`\omega_R=\rho_R`$, the original reference marginal. The triangle inequality yields
 
 ```math
-\frac12\left\|\omega_{SR}
- -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R\right\|_1
+\frac12\left\Vert \omega_{SR}
+ -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R\right\Vert _1
 \le\sqrt\delta+\frac\delta2.
 ```
 
@@ -103,7 +103,7 @@ At a phase flip it is left-multiplied by $`I-2|j\rangle\langle j|`$, a unitary m
 \det\bigl(K_\omega(t)^\dagger K_\omega(t)\bigr)=e^{-t}.
 ```
 
-The propagator is contractive, so its squared singular values satisfy $`0<s_i\le1`$. Starting from the fully occupied Slater state, a branch is a gauge-invariant fermionic Gaussian attenuation state with covariance $`K_\omega K_\omega^\dagger`$. Its vacuum probability is
+The propagator is contractive, so its squared singular values satisfy $`0\lt s_i\le1`$. Starting from the fully occupied Slater state, a branch is a gauge-invariant fermionic Gaussian attenuation state with covariance $`K_\omega K_\omega^\dagger`$. Its vacuum probability is
 
 ```math
 P_{\rm vac}(t\mid\omega)=\prod_{i=1}^N(1-s_i),
@@ -112,7 +112,7 @@ P_{\rm vac}(t\mid\omega)=\prod_{i=1}^N(1-s_i),
 
 This Gaussian normal-form fact concerns each branch only. It can also be obtained by diagonalizing the attenuation matrix into independent lossy modes; a fully occupied input is invariant, up to phase, under number-conserving mode rotations.
 
-For $`x<0`$, $`f(x)=\log(1-e^x)`$ is concave. Applying Jensen's inequality to $`x_i=\log s_i`$ gives
+For $`x\lt 0`$, $`f(x)=\log(1-e^x)`$ is concave. Applying Jensen's inequality to $`x_i=\log s_i`$ gives
 
 ```math
 P_{\rm vac}(t\mid\omega)
@@ -143,7 +143,7 @@ Let $`\alpha=-\log(1-\epsilon)`$. Since $`1-e^{-\alpha/N}\le\alpha/N`$,
 \ge N\log\frac N\alpha.
 ```
 
-For $`0<\epsilon\le1/2`$, one has $`\alpha\le2(\log2)\epsilon`$. Also $`N/\epsilon\ge2`$, so the subtraction of $`\log(2\log2)`$ can be absorbed in a universal positive multiple of $`\log(N/\epsilon)`$. This proves a uniform lower order $`\Omega[N\log(N/\epsilon)]`$. The explicit upper bound has the same order.
+For $`0\lt \epsilon\le1/2`$, one has $`\alpha\le2(\log2)\epsilon`$. Also $`N/\epsilon\ge2`$, so the subtraction of $`\log(2\log2)`$ can be absorbed in a universal positive multiple of $`\log(N/\epsilon)`$. This proves a uniform lower order $`\Omega[N\log(N/\epsilon)]`$. The explicit upper bound has the same order.
 
 For $`b\in[b_-,b_+]\subset(0,\infty)`$, use
 
