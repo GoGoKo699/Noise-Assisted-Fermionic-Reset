@@ -11,10 +11,10 @@ Onsite number dephasing leaves the total particle number unchanged. It can never
 Let $`\mathcal R_0`$ replace the system by its global vacuum. Half-diamond error at most $`\epsilon`$ means that for every joint initial state $`\rho_{SR}`$,
 
 ```math
-\frac12\left\|
+\frac12\left\Vert 
 (\mathcal E_t\otimes\mathrm{id}_R)(\rho_{SR})
 -|\mathrm{vac}\rangle\langle\mathrm{vac}|\otimes\rho_R
-\right\|_1\le\epsilon.
+\right\Vert _1\le\epsilon.
 ```
 
 The criterion controls the entire register and arbitrary correlations with an external reference. A small occupation at one selected site or a small density per site would allow a substantial probability that some unwanted particle remains. The expected-particle bound must therefore decrease by a factor proportional to $`N`$. That requirement produces the logarithm, and the inherited determinant converse shows that it cannot be removed within the stated randomized quadratic class.

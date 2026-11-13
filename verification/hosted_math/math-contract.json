@@ -106,8 +106,8 @@
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
       "index": 31,
-      "source_sha256": "1ae7eb7cd85d15afda06fbf76adba57829150dc897e4f699135e8a736656880c",
-      "expected_text": "1\n          2\n        \n        ∥\n        \n          ω\n          \n            S\n            R\n          \n        \n        −\n        |\n        0\n        ⟩\n        ⟨\n        0\n        |\n        ⊗\n        \n          I\n          R\n        \n        \n          /\n        \n        2\n        \n          ∥\n          1\n        \n      \n    \n    \n      \n      \n        \n          \n        \n        =\n        \n          \n            q\n            +\n            \n              \n                q\n                2\n              \n              +\n              4\n              \n                η\n                2\n              \n            \n          \n          4\n        \n        ."
+      "source_sha256": "e54894541ec121bb17ab5d3e0058d34a393c5e0e84e67ead220ff0a0a7f963c8",
+      "expected_text": "1\n          2\n        \n        ‖\n        \n          ω\n          \n            S\n            R\n          \n        \n        −\n        |\n        0\n        ⟩\n        ⟨\n        0\n        |\n        ⊗\n        \n          I\n          R\n        \n        \n          /\n        \n        2\n        \n          ‖\n          1\n        \n      \n    \n    \n      \n      \n        \n          \n        \n        =\n        \n          \n            q\n            +\n            \n              \n                q\n                2\n              \n              +\n              4\n              \n                η\n                2\n              \n            \n          \n          4\n        \n        ."
     },
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
@@ -118,8 +118,8 @@
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
       "index": 37,
-      "source_sha256": "d0efd5fbdb59cde253c5635b274ee5911eaf456924fbe192d41d1658ee671473",
-      "expected_text": "=\n        −\n        \n          δ\n          \n            j\n            k\n          \n        \n        \n          c\n          k\n        \n        ,\n      \n    \n    \n      \n        [\n        \n          n\n          j\n        \n        ,\n        \n          c\n          ℓ\n          †\n        \n        ]\n      \n      \n        \n        =\n        \n          δ\n          \n            j\n            ℓ\n          \n        \n        \n          c\n          ℓ\n          †\n        \n        ,\n      \n    \n    \n      \n        \n          D\n        \n        [\n        \n          n\n          j\n        \n        \n          ]\n          ∗\n        \n        (\n        O\n        )\n      \n      \n        \n        =\n        −\n        \n          1\n          2\n        \n        [\n        \n          n\n          j\n        \n        ,\n        [\n        \n          n\n          j\n        \n        ,\n        O\n        ]\n        ]\n        ."
+      "source_sha256": "eb85351557979803d58fc769aa02f31f9cfff49fd431577733c0000290d6219b",
+      "expected_text": "[\n        \n          n\n          j\n        \n        ,\n        \n          c\n          k\n        \n        ]\n      \n      \n        \n        =\n        −\n        \n          δ\n          \n            j\n            k\n          \n        \n        \n          c\n          k\n        \n        ,\n      \n    \n    \n      \n        [\n        \n          n\n          j\n        \n        ,\n        \n          c\n          ℓ\n          †\n        \n        ]\n      \n      \n        \n        =\n        \n          δ\n          \n            j\n            ℓ\n          \n        \n        \n          c\n          ℓ\n          †\n        \n        ,\n      \n    \n    \n      \n        \n          D\n        \n        [\n        \n          n\n          j\n        \n        \n          ]\n          ∗\n        \n        (\n        O\n        )\n      \n      \n        \n        =\n        −\n        \n          1\n          2\n        \n        [\n        \n          n\n          j\n        \n        ,\n        [\n        \n          n\n          j\n        \n        ,\n        O\n        ]\n        ]\n        ."
     },
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
@@ -166,14 +166,14 @@
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
       "index": 70,
-      "source_sha256": "f4e35e8c45c2d7490c270f70f2ef2e71137f99ad0dd49ab5fea68019c9611d4b",
-      "expected_text": "∥\n  ω\n  −\n  \n    P\n    0\n  \n  ω\n  \n    P\n    0\n  \n  \n    ∥\n    1\n  \n  ≤\n  2\n  \n    δ\n  \n  ."
+      "source_sha256": "6abe01728737cbccb847910d960cd289a658ca7c5b528d86648272a744aab5bb",
+      "expected_text": "‖\n  ω\n  −\n  \n    P\n    0\n  \n  ω\n  \n    P\n    0\n  \n  \n    ‖\n    1\n  \n  ≤\n  2\n  \n    δ\n  \n  ."
     },
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
       "index": 76,
-      "source_sha256": "ad97e72957d7b00936af873d0ca019068a4a73c5b2f3ef950153e7fab9254a39",
-      "expected_text": "1\n    2\n  \n  ∥\n  \n    ω\n    \n      S\n      R\n    \n  \n  −\n  |\n  \n    Ω\n    N\n  \n  ⟩\n  ⟨\n  \n    Ω\n    N\n  \n  |\n  ⊗\n  \n    ρ\n    R\n  \n  \n    ∥\n    1\n  \n  ≤\n  \n    δ\n  \n  +\n  \n    δ\n    2\n  \n  ."
+      "source_sha256": "98aea96e4918715e2df33842508782dca3758c67eae02c678e316ce61c39b86b",
+      "expected_text": "1\n    2\n  \n  ‖\n  \n    ω\n    \n      S\n      R\n    \n  \n  −\n  |\n  \n    Ω\n    N\n  \n  ⟩\n  ⟨\n  \n    Ω\n    N\n  \n  |\n  ⊗\n  \n    ρ\n    R\n  \n  \n    ‖\n    1\n  \n  ≤\n  \n    δ\n  \n  +\n  \n    δ\n    2\n  \n  ."
     },
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
@@ -226,13 +226,13 @@
     {
       "path": "science/reset_theorem.md",
       "index": 25,
-      "source_sha256": "f4e35e8c45c2d7490c270f70f2ef2e71137f99ad0dd49ab5fea68019c9611d4b",
-      "expected_text": "∥\n  ω\n  −\n  \n    P\n    0\n  \n  ω\n  \n    P\n    0\n  \n  \n    ∥\n    1\n  \n  ≤\n  2\n  \n    δ\n  \n  ."
+      "source_sha256": "6abe01728737cbccb847910d960cd289a658ca7c5b528d86648272a744aab5bb",
+      "expected_text": "‖\n  ω\n  −\n  \n    P\n    0\n  \n  ω\n  \n    P\n    0\n  \n  \n    ‖\n    1\n  \n  ≤\n  2\n  \n    δ\n  \n  ."
     },
     {
       "path": "science/reset_theorem.md",
       "index": 30,
-      "source_sha256": "0eebd789bdff1730d50810b340221c6bbd0e5c5874bb5f8a84c88a1d3932a89c",
+      "source_sha256": "0634b6225f7c6cff8ba2b1324f9f41fead8100b3c7ef33b88d096e40a269ffa9",
       "expected_text": "1\n    2\n  \n  \n    \n      ‖\n      \n        ω\n        \n          S\n          R\n        \n      \n      −\n      |\n      \n        Ω\n        N\n      \n      ⟩\n      ⟨\n      \n        Ω\n        N\n      \n      |\n      ⊗\n      \n        ρ\n        R\n      \n      ‖\n    \n    1\n  \n  ≤\n  \n    δ\n  \n  +\n  \n    δ\n    2\n  \n  ."
     },
     {

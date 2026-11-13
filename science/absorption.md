@@ -32,7 +32,7 @@ For every $`N\ge1`$ and every normalized initial one-particle density operator,
 Consequently,
 
 ```math
-\|T_t^*(I)\|_\infty
+\Vert T_t^*(I)\Vert _\infty
 \le2^{-\lfloor t/(2C_bN)\rfloor}.
 ```
 

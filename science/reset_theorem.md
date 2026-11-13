@@ -56,14 +56,14 @@ Hence every input has probability at most $`\delta_t`$ to be outside the vacuum 
 To turn this into a channel bound, take an arbitrary output state $`\omega_{SR}`$ and set $`P_0=|\Omega_N\rangle\langle\Omega_N|\otimes I_R`$. If the nonvacuum probability is at most $`\delta\le1`$, gentle projection gives
 
 ```math
-\|\omega-P_0\omega P_0\|_1\le2\sqrt\delta.
+\Vert \omega-P_0\omega P_0\Vert _1\le2\sqrt\delta.
 ```
 
 Write $`P_0\omega P_0=|\Omega_N\rangle\langle\Omega_N|\otimes\omega_R^0`$. Partial trace over the system kills the off-diagonal vacuum/nonvacuum blocks. Therefore $`\omega_R-\omega_R^0`$ is positive with trace at most $`\delta`$. Trace preservation gives $`\omega_R=\rho_R`$, the original reference marginal. The triangle inequality yields
 
 ```math
-\frac12\left\|\omega_{SR}
- -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R\right\|_1
+\frac12\left\Vert \omega_{SR}
+ -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R\right\Vert _1
 \le\sqrt\delta+\frac\delta2.
 ```
 

@@ -56,11 +56,11 @@ Write $`\Phi_{N,b,t}=e^{t\mathcal L_{N,b}}`$ and $`|\Omega_N\rangle=|0\rangle^{\
 ```math
 \begin{aligned}
 d_{N,b}(t)
-&=\frac12\|\Phi_{N,b,t}-\mathcal R_N\|_\diamond\\
-&=\sup_{\rho_{SR}}\frac12\left\|
+&=\frac12\Vert \Phi_{N,b,t}-\mathcal R_N\Vert _\diamond\\
+&=\sup_{\rho_{SR}}\frac12\left\Vert 
  (\Phi_{N,b,t}\otimes\mathrm{id}_R)(\rho_{SR})
  -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R
- \right\|_1.
+ \right\Vert _1.
 \end{aligned}
 ```
 

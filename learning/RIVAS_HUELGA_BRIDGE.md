@@ -67,7 +67,7 @@ The target is $`|0\rangle\langle0|\otimes I_R/2`$. Diagonalizing the $`|00\rangl
 
 ```math
 \begin{aligned}
-&\frac12\|\omega_{SR}-|0\rangle\langle0|\otimes I_R/2\|_1\\
+&\frac12\Vert \omega_{SR}-|0\rangle\langle0|\otimes I_R/2\Vert _1\\
 &\qquad=\frac{q+\sqrt{q^2+4\eta^2}}4.
 \end{aligned}
 ```
@@ -88,7 +88,7 @@ To see why the equation closes, use
 
 ```math
 \begin{aligned}
-[n_j,c_k]&=-\delta_{jk}c_k,\\
+{}[n_j,c_k]&=-\delta_{jk}c_k,\\
 [n_j,c_\ell^\dagger]&=\delta_{j\ell}c_\ell^\dagger,\\
 \mathcal D[n_j]^*(O)&=-\frac12[n_j,[n_j,O]].
 \end{aligned}
@@ -166,7 +166,7 @@ The operator inequality $`I-|\Omega_N\rangle\langle\Omega_N|\preceq\widehat N`$ 
 The missing reference step is gentle vacuum projection. For an output $`\omega_{SR}`$, let $`P_0=|\Omega_N\rangle\langle\Omega_N|\otimes I_R`$. A nonvacuum probability at most $`\delta`$ implies
 
 ```math
-\|\omega-P_0\omega P_0\|_1\le2\sqrt\delta.
+\Vert \omega-P_0\omega P_0\Vert _1\le2\sqrt\delta.
 ```
 
 One way to see the square root is to purify $`\omega`$: the removed component of the purification has vector norm at most $`\sqrt\delta`$. The trace norm between its original rank-one operator and the unnormalized projected rank-one operator is at most twice that value. Taking a partial trace preserves the bound.
@@ -174,8 +174,8 @@ One way to see the square root is to purify $`\omega`$: the removed component of
 The projected state has the form $`|\Omega_N\rangle\langle\Omega_N|\otimes\omega_R^0`$. Its missing reference marginal is positive with trace at most $`\delta`$. Since a system channel leaves $`\rho_R`$ unchanged, the triangle inequality gives
 
 ```math
-\frac12\|\omega_{SR}
- -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R\|_1
+\frac12\Vert \omega_{SR}
+ -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R\Vert _1
 \le\sqrt\delta+\frac\delta2.
 ```
 
