@@ -49,7 +49,7 @@ The bond strength, loss strength, and total dephasing coefficient are bounded in
 Write $`\Phi_{N,b,t}=e^{t\mathcal L_{N,b}}`$ and $`|\Omega_N\rangle=|0\rangle^{\otimes N}`$. The replacement channel and reset error are
 
 ```math
-\mathcal R_N(X)=\operatorname{Tr}(X)
+\mathcal R_N(X)=\mathrm{Tr}(X)
  |\Omega_N\rangle\langle\Omega_N|,
 ```
 
@@ -58,7 +58,7 @@ Write $`\Phi_{N,b,t}=e^{t\mathcal L_{N,b}}`$ and $`|\Omega_N\rangle=|0\rangle^{\
 d_{N,b}(t)
 &=\frac12\|\Phi_{N,b,t}-\mathcal R_N\|_\diamond\\
 &=\sup_{\rho_{SR}}\frac12\left\|
- (\Phi_{N,b,t}\otimes\operatorname{id}_R)(\rho_{SR})
+ (\Phi_{N,b,t}\otimes\mathrm{id}_R)(\rho_{SR})
  -|\Omega_N\rangle\langle\Omega_N|\otimes\rho_R
  \right\|_1.
 \end{aligned}
@@ -81,7 +81,7 @@ The sink action is exactly $`A=t`$. The dephasing exposure is also explicit: the
 For an arbitrary many-body input define
 
 ```math
-C_{ij}(t)=\operatorname{Tr}
+C_{ij}(t)=\mathrm{Tr}
  \bigl[\Phi_{N,b,t}(\rho)c_j^\dagger c_i\bigr].
 ```
 
@@ -89,7 +89,7 @@ Let $`h_N`$ be the path adjacency matrix and $`P=|1\rangle\langle1|`$. Directly 
 
 ```math
 \dot C=-i[h_N,C]-\frac12\{P,C\}
- -\gamma(C-\operatorname{diag}C),\qquad \gamma=\frac bN.
+ -\gamma(C-\mathrm{diag}\,C),\qquad \gamma=\frac bN.
 ```
 
 For example,
@@ -101,11 +101,11 @@ For example,
 
 Summing over $`j`$ multiplies off-diagonal entries by $`-1`$ and leaves diagonal entries unchanged. The hopping and loss terms give the commutator and anticommutator above.
 
-The CAR imply $`0\preceq C(0)\preceq I`$ and $`\operatorname{Tr}C(0)\le N`$. Also
+The CAR imply $`0\preceq C(0)\preceq I`$ and $`\mathrm{Tr}\,C(0)\le N`$. Also
 
 ```math
-\operatorname{Tr}C(t)
-=\operatorname{Tr}\bigl[\Phi_{N,b,t}(\rho)\widehat N\bigr],
+\mathrm{Tr}\,C(t)
+=\mathrm{Tr}\bigl[\Phi_{N,b,t}(\rho)\widehat N\bigr],
 \qquad \widehat N=\sum_j n_j.
 ```
 

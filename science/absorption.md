@@ -6,7 +6,7 @@ Let $`T_t`$ be the trace-decreasing CP semigroup on the one-particle space with 
 
 ```math
 \mathcal K(\rho)=-i[h_N,\rho]-\frac12\{P,\rho\}
- -\gamma(\rho-\operatorname{diag}\rho),
+ -\gamma(\rho-\mathrm{diag}\,\rho),
 \qquad P=|1\rangle\langle1|,\quad \gamma=b/N.
 ```
 
@@ -82,7 +82,7 @@ G_{1j}(z)
  {\sin[(N+1)\theta]+(i/2)\sin(N\theta)}.
 ```
 
-The formula is an identity of rational functions, with removable cases understood by continuity. On the integration contour $`\operatorname{Im}z=\gamma/2>0`$, the inverse exists because $`h_N-iP/2`$ is dissipative.
+The formula is an identity of rational functions, with removable cases understood by continuity. On the integration contour $`\mathrm{Im}\,z=\gamma/2>0`$, the inverse exists because $`h_N-iP/2`$ is dissipative.
 
 ## A fixed energy band carries a uniform probability
 
@@ -167,8 +167,8 @@ One may first stop after a finite number of intervals, apply this bound, and pas
 Markov's inequality gives survival probability at most $`1/2`$ after $`2C_bN`$. This bound applies to every normalized state. At any subsequent block boundary the normalized surviving state can therefore be used as a new initial state, giving
 
 ```math
-\operatorname{Tr}T_t(\rho)
-\le2^{-\lfloor t/(2C_bN)\rfloor}\operatorname{Tr}\rho
+\mathrm{Tr}\,T_t(\rho)
+\le2^{-\lfloor t/(2C_bN)\rfloor}\mathrm{Tr}\,\rho
 ```
 
 for positive $`\rho`$. By duality this is the stated operator bound. No conversion from a spectral gap to a mixing time, no eigenvector conditioning assumption, and no Gaussian-input assumption is needed.

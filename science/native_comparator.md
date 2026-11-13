@@ -59,14 +59,14 @@ w(u)=\pi-\frac\pi{1+i/2}u+O(u^2)
 Expanding $`z_N=2\cos[uw(u)]`$ gives
 
 ```math
-\operatorname{Im}z_N
+\mathrm{Im}\,z_N
 =-\frac{4\pi^2}{5N^3}+O(N^{-4}),
 ```
 
 and hence the survival-probability decay rate is
 
 ```math
-r_N=-2\operatorname{Im}z_N
+r_N=-2\mathrm{Im}\,z_N
 =\frac{8\pi^2}{5N^3}+O(N^{-4}).
 ```
 

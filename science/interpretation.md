@@ -12,7 +12,7 @@ Let $`\mathcal R_0`$ replace the system by its global vacuum. Half-diamond error
 
 ```math
 \frac12\left\|
-(\mathcal E_t\otimes\operatorname{id}_R)(\rho_{SR})
+(\mathcal E_t\otimes\mathrm{id}_R)(\rho_{SR})
 -|\mathrm{vac}\rangle\langle\mathrm{vac}|\otimes\rho_R
 \right\|_1\le\epsilon.
 ```

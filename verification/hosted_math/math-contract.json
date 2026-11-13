@@ -112,8 +112,8 @@
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
       "index": 34,
-      "source_sha256": "287927c38d9657f1fc4517c5c02d3afd6aac22dc7fcb3daf0affb4fa694adc85",
-      "expected_text": "C\n    \n      k\n      ℓ\n    \n  \n  =\n  Tr\n  (\n  ρ\n  \n    c\n    ℓ\n    †\n  \n  \n    c\n    k\n  \n  )\n  ,"
+      "source_sha256": "82441181440caa81c1b919d6fdce3990eacf25a241735cc9f90d486007ac505f",
+      "expected_text": "C\n    \n      k\n      ℓ\n    \n  \n  =\n  \n    Tr\n  \n  (\n  ρ\n  \n    c\n    ℓ\n    †\n  \n  \n    c\n    k\n  \n  )\n  ,"
     },
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
@@ -124,8 +124,8 @@
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
       "index": 40,
-      "source_sha256": "eb509a8808aa2bd84132413b7cb989af567141a6100257ff3c97a2e6197b9279",
-      "expected_text": "C\n      ˙\n    \n  \n  =\n  −\n  i\n  [\n  \n    h\n    N\n  \n  ,\n  C\n  ]\n  −\n  \n    1\n    2\n  \n  {\n  P\n  ,\n  C\n  }\n  −\n  γ\n  (\n  C\n  −\n  diag\n  C\n  )\n  ,\n  \n    \n  \n  P\n  =\n  |\n  1\n  ⟩\n  ⟨\n  1\n  |\n  ."
+      "source_sha256": "e61ff852b54f17bf0115f298d1651478523e9836e16b9bee9c0c2007c5d6bd05",
+      "expected_text": "C\n      ˙\n    \n  \n  =\n  −\n  i\n  [\n  \n    h\n    N\n  \n  ,\n  C\n  ]\n  −\n  \n    1\n    2\n  \n  {\n  P\n  ,\n  C\n  }\n  −\n  γ\n  (\n  C\n  −\n  \n    diag\n  \n  \n    \n  \n  C\n  )\n  ,\n  \n    \n  \n  P\n  =\n  |\n  1\n  ⟩\n  ⟨\n  1\n  |\n  ."
     },
     {
       "path": "learning/RIVAS_HUELGA_BRIDGE.md",
@@ -214,8 +214,8 @@
     {
       "path": "science/reset_theorem.md",
       "index": 18,
-      "source_sha256": "3904f5bbd839e5ddc6c1d2df2069ee79c4d0be412f9176a649bd2cd59cc3120c",
-      "expected_text": "Tr\n        C\n        (\n        t\n        )\n      \n      \n        \n        =\n        Tr\n        \n          [\n        \n        C\n        (\n        0\n        )\n        \n          T\n          t\n          ∗\n        \n        (\n        I\n        )\n        \n          ]\n        \n      \n    \n    \n      \n      \n        \n        ≤\n        \n          q\n          b\n        \n        (\n        t\n        )\n        Tr\n        C\n        (\n        0\n        )\n        ≤\n        \n          δ\n          t\n        \n        ."
+      "source_sha256": "bfdab507806379c1a151dad6f0fd82ce9cd671c8791adf79fd1d8d1ebda607bc",
+      "expected_text": "Tr\n        \n        \n          \n        \n        C\n        (\n        t\n        )\n      \n      \n        \n        =\n        \n          Tr\n        \n        \n          [\n        \n        C\n        (\n        0\n        )\n        \n          T\n          t\n          ∗\n        \n        (\n        I\n        )\n        \n          ]\n        \n      \n    \n    \n      \n      \n        \n        ≤\n        \n          q\n          b\n        \n        (\n        t\n        )\n        \n          Tr\n        \n        \n          \n        \n        C\n        (\n        0\n        )\n        ≤\n        \n          δ\n          t\n        \n        ."
     },
     {
       "path": "science/reset_theorem.md",

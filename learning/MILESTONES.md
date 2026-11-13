@@ -63,7 +63,7 @@ The milestones express conceptual understanding, dependencies, and scientific so
 
 **Central question:** Why is the one-body occupation matrix physically bounded?
 
-**Understanding target:** Interpret the canonical anticommutation relations and explain $`0\preceq C\preceq I`$, $`\operatorname{Tr}C\le N`$, and the equality between its trace and expected total particle number.
+**Understanding target:** Interpret the canonical anticommutation relations and explain $`0\preceq C\preceq I`$, $`\mathrm{Tr}\,C\le N`$, and the equality between its trace and expected total particle number.
 
 **Dependencies and story role:** [M01](#m01-register-and-vacuum), [M02](#m02-states-references-and-channels). Supplies the many-body-to-one-body quantities needed for the later lift.
 

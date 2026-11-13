@@ -39,9 +39,9 @@ The [absorption proposition](absorption.md) implies
 
 ```math
 \begin{aligned}
-\operatorname{Tr}C(t)
-&=\operatorname{Tr}\bigl[C(0)T_t^*(I)\bigr]\\
-&\le q_b(t)\operatorname{Tr}C(0)\le\delta_t.
+\mathrm{Tr}\,C(t)
+&=\mathrm{Tr}\bigl[C(0)T_t^*(I)\bigr]\\
+&\le q_b(t)\mathrm{Tr}\,C(0)\le\delta_t.
 \end{aligned}
 ```
 

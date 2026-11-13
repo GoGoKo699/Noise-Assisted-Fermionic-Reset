@@ -27,7 +27,7 @@ The main notation translations are:
 | $`E_{(t_1,t_0)}`$, or a homogeneous $`E_t`$ | $`\Phi_{N,b,t}=e^{t\mathcal L_{N,b}}`$ on the full register |
 | Generator $`L_t`$ | The time-independent superoperator $`\mathcal L_{N,b}`$ |
 | A term $`\gamma_k\mathcal D[V_k]`$ | Either leave its positive rate outside, or set $`L_k=\sqrt{\gamma_k}V_k`$ |
-| Identity superoperator or operator denoted by $`1`$ | $`\operatorname{id}`$ for a channel and $`I`$ for a Hilbert-space operator |
+| Identity superoperator or operator denoted by $`1`$ | $`\mathrm{id}`$ for a channel and $`I`$ for a Hilbert-space operator |
 | A Hilbert-space dimension often denoted by $`N`$ | Here $`N`$ counts modes; the full Hilbert-space dimension is $`2^N`$ |
 
 In particular, the noise term is $`\gamma\mathcal D[n_j]`$ with $`\gamma=b/N`$. Coherence between two different one-particle sites decays at rate $`\gamma`$: both onsite baths contribute. Vacuum–occupied coherence of a single mode instead has dephasing rate $`\gamma/2`$, as the next example shows. The [model](../science/model.md) fixes the convention throughout.
@@ -79,10 +79,10 @@ The expected system particle number is only $`q/2`$. The error also contains the
 The fermionic anticommutation relations encode the restriction that each mode has occupation zero or one. For the occupation matrix
 
 ```math
-C_{k\ell}=\operatorname{Tr}(\rho c_\ell^\dagger c_k),
+C_{k\ell}=\mathrm{Tr}(\rho c_\ell^\dagger c_k),
 ```
 
-they imply $`0\preceq C\preceq I`$ and $`\operatorname{Tr}C\le N`$. These inequalities hold for every many-body state, including entangled and non-Gaussian states.
+they imply $`0\preceq C\preceq I`$ and $`\mathrm{Tr}\,C\le N`$. These inequalities hold for every many-body state, including entangled and non-Gaussian states.
 
 To see why the equation closes, use
 
@@ -98,7 +98,7 @@ Thus $`c_\ell^\dagger c_k`$ remains proportional to itself under each double com
 
 ```math
 \dot C=-i[h_N,C]-\frac12\{P,C\}
- -\gamma(C-\operatorname{diag}C),\qquad P=|1\rangle\langle1|.
+ -\gamma(C-\mathrm{diag}\,C),\qquad P=|1\rangle\langle1|.
 ```
 
 Closure is a statement about a set of observables. It does not say the full state remains Gaussian. This distinction allows the one-particle calculation to constrain every initial register state. See [the derivation](../science/model.md#one-body-equation-without-a-gaussian-input-assumption).
